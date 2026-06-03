@@ -602,11 +602,11 @@ M622 J1
   
   M106 P1 S178
   M400 S4
-  G1 X-3.5 F18000
+  G1 X0 F18000
   G1 X-13.5 F3000
-  G1 X-3.5 F18000 ;wipe and shake
+  G1 X0 F18000 ;wipe and shake
   G1 X-13.5 F3000
-  G1 X-38.2 F12000 ;wipe and shake
+  G1 X0 F12000 ;wipe and shake
   G1 X-13.5 F3000
   M400
   M106 P1 S0 
