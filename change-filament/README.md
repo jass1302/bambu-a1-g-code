@@ -42,9 +42,11 @@ To support this work download, print & boost this model: https://makerworld.com/
 
 ![image](https://github.com/user-attachments/assets/cba181f0-c58c-4677-b402-d3094aaf58bf)
 
-❗Only for Bambu Lab A1, not compatible with  Bambu Lab A1 Mini
+❗Use the matching file for your printer:
+- **Bambu Lab A1**: [a1-manual-filament-change-v3.gcode](https://github.com/avatorl/bambu-a1-g-code/blob/main/change-filament/a1-manual-filament-change-v3.gcode)
+- **Bambu Lab A1 Mini**: [a1-mini-manual-filament-change-v1.gcode](https://github.com/avatorl/bambu-a1-g-code/blob/main/change-filament/a1-mini-manual-filament-change-v1.gcode)
 
-2. Copy [G-code](https://github.com/avatorl/bambu-a1-G-code/blob/main/change-filament/a1-manual-filament-change-v3.gcode) and paste into **Change filament G-code** field of the **Machine gcode** tab (replace any code existing in the field).
+2. Copy the matching G-code file and paste it into **Change filament G-code** field of the **Machine gcode** tab (replace any code existing in the field).
 
 ![image](https://github.com/user-attachments/assets/06cd59a5-19a9-49f0-94f5-c07c40b21a72)
 
@@ -150,7 +152,7 @@ Bambu Lab forum post for discussion https://forum.bambulab.com/t/multi-color-pri
 
 Or [create an issue](https://github.com/avatorl/bambu-a1-g-code/issues/new) here.
 
-I think Bambu Lab A1 Mini can use the same code with only minor modification. It requires different X coordinates for the filament cutter in the "cut filament" code section.
+The A1 Mini variant in this repository uses A1 Mini coordinates in geometry-dependent sections (parking / cutter / wiper path), while preserving the same manual change workflow.
 
 And I believe this code can be modified to use the AMS for the first 4 colors and manual filament changes for any additional colors.
 
